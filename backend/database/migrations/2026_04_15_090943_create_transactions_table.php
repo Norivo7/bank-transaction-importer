@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('transactions', function (Blueprint $table) {
             $table->id();
+            $table->uuid('transaction_id')->index();
+            $table->string('account_number', 34);
+            $table->date('transaction_date');
+            $table->decimal('amount', 15, 2);
+            $table->string('currency', 3);
             $table->timestamps();
         });
     }

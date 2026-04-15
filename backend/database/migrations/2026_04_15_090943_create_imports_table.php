@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('imports', function (Blueprint $table) {
             $table->id();
+            $table->string('file_name');
+            $table->unsignedInteger('total_records')->default(0);
+            $table->unsignedInteger('successful_records')->default(0);
+            $table->unsignedInteger('failed_records')->default(0);
+            $table->enum('status', ['success', 'partial', 'failed']);
             $table->timestamps();
         });
     }
