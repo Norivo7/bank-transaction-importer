@@ -1,0 +1,16 @@
+[
+  {
+    "transaction_id": "6a62d1d2-1111-4b70-9ef3-100000000017",
+    "account_number": "PL61109010140000071219812874",
+    "transaction_date": "2025-10-14",
+    "amount": 1000.00,
+    "currency": "PLN"
+  },
+  {
+    "transaction_id": "6a62d1d2-1111-4b70-9ef3-100000000018",
+    "account_number": "GB82WEST12345698765432",
+    "transaction_date": "2025-10-15",
+    "amount": -50.00,
+    "currency": "EUR"
+  }
+]

@@ -1,0 +1,16 @@
+<transactions>
+    <transaction>
+        <transaction_id>6a62d1d2-1111-4b70-9ef3-100000000015</transaction_id>
+        <account_number>PL61109010140000071219812874</account_number>
+        <transaction_date>2025-10-14</transaction_date>
+        <amount>1200.00</amount>
+        <currency>PLN</currency>
+    </transaction>
+    <transaction>
+        <transaction_id>6a62d1d2-1111-4b70-9ef3-100000000016</transaction_id>
+        <account_number>INVALID_IBAN</account_number>
+        <transaction_date>2025-10-15</transaction_date>
+        <amount>300.00</amount>
+        <currency>USD</currency>
+    </transaction>
+</transactions>

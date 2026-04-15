@@ -1,0 +1,16 @@
+<transactions>
+    <transaction>
+        <transaction_id>6a62d1d2-1111-4b70-9ef3-100000000011</transaction_id>
+        <account_number>PL61109010140000071219812874</account_number>
+        <transaction_date>2025-10-14</transaction_date>
+        <amount>999.99</amount>
+        <currency>PLN</currency>
+    </transaction>
+    <transaction>
+        <transaction_id>6a62d1d2-1111-4b70-9ef3-100000000012</transaction_id>
+        <account_number>GB82WEST12345698765432</account_number>
+        <transaction_date>2025-10-17</transaction_date>
+        <amount>321.10</amount>
+        <currency>USD</currency>
+    </transaction>
+</transactions>

@@ -1,0 +1,9 @@
+[
+  {
+    "transaction_id": "6a62d1d2-1111-4b70-9ef3-100000000019",
+    "account_number": "",
+    "transaction_date": "bad-date",
+    "amount": 0,
+    "currency": "XYZ123"
+  }
+]

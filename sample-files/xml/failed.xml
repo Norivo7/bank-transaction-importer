@@ -1,0 +1,16 @@
+<transactions>
+    <transaction>
+        <transaction_id>6a62d1d2-1111-4b70-9ef3-100000000013</transaction_id>
+        <account_number></account_number>
+        <transaction_date>bad-date</transaction_date>
+        <amount>-10</amount>
+        <currency>XX</currency>
+    </transaction>
+    <transaction>
+        <transaction_id>6a62d1d2-1111-4b70-9ef3-100000000014</transaction_id>
+        <account_number>INVALID</account_number>
+        <transaction_date>2025-10-17</transaction_date>
+        <amount>0</amount>
+        <currency>123</currency>
+    </transaction>
+</transactions>
