@@ -7,6 +7,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
+/**
+ * @property int $id
+ */
 class Import extends Model
 {
     protected $fillable = [
@@ -17,6 +20,9 @@ class Import extends Model
         'status',
     ];
 
+    /**
+     * @return HasMany<ImportLog, $this>
+     */
     public function logs(): HasMany
     {
         return $this->hasMany(ImportLog::class);

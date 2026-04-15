@@ -7,6 +7,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
+/**
+ * @property int $id
+ * @property int $import_id
+ * @property string|null $transaction_id
+ * @property string $error_message
+ */
 class ImportLog extends Model
 {
     protected $fillable = [
@@ -15,6 +21,9 @@ class ImportLog extends Model
         'error_message',
     ];
 
+    /**
+     * @return BelongsTo<Import, $this>
+     */
     public function import(): BelongsTo
     {
         return $this->belongsTo(Import::class);
