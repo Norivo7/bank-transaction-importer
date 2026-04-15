@@ -2,7 +2,6 @@ services:
   app:
     build:
       context: ./docker/php
-    container_name: app
     working_dir: /var/www
     volumes:
       - ./backend:/var/www
@@ -11,7 +10,6 @@ services:
 
   nginx:
     image: nginx:alpine
-    container_name: nginx
     ports:
       - "8000:80"
     volumes:
@@ -22,7 +20,6 @@ services:
 
   db:
     image: mysql:8.0
-    container_name: db
     environment:
       MYSQL_DATABASE: bank_import
       MYSQL_ROOT_PASSWORD: root
@@ -35,7 +32,6 @@ services:
 
   frontend:
     image: node:22-alpine
-    container_name: frontend
     working_dir: /app
     volumes:
       - ./frontend:/app
