@@ -45,7 +45,7 @@ The system validates each record, stores valid transactions, logs invalid ones, 
 ------------------------------------------------------------------------
 
 
-## Setup
+## Installation
 
 1. Clone the repository:
 ```bash
