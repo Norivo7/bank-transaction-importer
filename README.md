@@ -47,16 +47,25 @@ The system validates each record, stores valid transactions, logs invalid ones, 
 
 ## Setup
 
-1. Clone the repository and navigate to the project directory:
+1. Clone the repository:
+```bash
+git clone git@github.com:Norivo7/bank-transaction-importer.git
+```
+
+2. Go to ```/backend``` folder, copy ```.env.example``` to ```.env```.
+
+
+3. navigate to the project directory, build and start the containers using:
   ```bash
   docker compose up --build
   ```
-  to build and start the application. 
-  
-2. Copy .env.example to .env.
 
+4. Install backend dependencies:
+```bash
+docker compose exec app composer install
+```
 
-3. Run database migrations:
+5. Run database migrations:
 ```bash
 docker compose exec app php artisan migrate
 ```
